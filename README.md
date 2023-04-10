@@ -7,12 +7,15 @@
 
 [Link a la explicación de la app](https://miucateciedu-my.sharepoint.com/personal/20210160_miucateci_edu_do/_layouts/15/onedrive.aspx?login_hint=20210160%40miucateci%2Eedu%2Edo&id=%2Fpersonal%2F20210160%5Fmiucateci%5Fedu%5Fdo%2FDocuments%2FAn%C3%A1lisis%20de%20sist%2FApp%2Eavi&parent=%2Fpersonal%2F20210160%5Fmiucateci%5Fedu%5Fdo%2FDocuments%2FAn%C3%A1lisis%20de%20sist)
 
-
+<p> 
 **Introducción**
+<p/>
 
 ***Para entender cómo funciona la aplicación, analizamos detalladamente las carpetas de client, worker, nginx y server, así como el archivo Docker Compose, sabiendo que necesario comprender primero el propósito de cada una de estas carpetas y cómo se relacionan entre sí, de modo que se puede visualizar el porqué de cada cosa.***
-
+<p> 
 **Cliente**
+<p/> 
+
 ***La carpeta "client" contiene los archivos necesarios para crear la interfaz de usuario de la aplicación. Estos archivos pueden incluir HTML, CSS, JavaScript y cualquier otro recurso necesario para crear la experiencia del usuario final.***
 
 **Trabajador**
