@@ -52,6 +52,10 @@ Un contenedor para el procesamiento en segundo plano, que incluiría la carpeta 
 Un contenedor para el servidor Nginx, que incluiría la carpeta "nginx" y cualquier configuración necesaria para actuar como proxy inverso para la aplicación.
 <p/>
 
+<p>
+Conclusiones
+<p/>
+
 ***Cada contenedor estaría aislado de los demás y solo tendría acceso a los recursos que se le asignan. El archivo Docker Compose definiría cómo se comunican los contenedores entre sí y cómo se exponen los puertos de los contenedores a través de la red.***
 
 ***En resumen, Concluimos que la aplicación se ejecuta en múltiples contenedores Docker aislados, cada uno con su propia función específica. Docker Compose se encarga de definir y orquestar la ejecución de estos contenedores y de gestionar la comunicación entre ellos.***
