@@ -36,21 +36,15 @@ Servidor
 ***Entonces el docker Compose es una herramienta que permite a los desarrolladores definir y ejecutar aplicaciones Docker de múltiples contenedores. nuestro archivo Docker Compose define cómo se ejecutan los contenedores de la aplicación y cómo se comunican entre sí.***
 
 **En el contexto de esta aplicación, resumimos que el archivo Docker Compose define los siguientes contenedores:**
-<p> 
-Un contenedor para la aplicación del servidor, que incluiría la carpeta "server" y cualquier dependencia necesaria para ejecutar la aplicación.
-<p/>
 
-<p>
-Un contenedor para la interfaz de usuario de la aplicación, que incluiría la carpeta "client" y cualquier recurso necesario para construir la interfaz de usuario.
-<p/>
+***Un contenedor para la aplicación del servidor, que incluiría la carpeta "server" y cualquier dependencia necesaria para ejecutar la aplicación.***
 
-<p>
-Un contenedor para el procesamiento en segundo plano, que incluiría la carpeta "worker" y cualquier recurso necesario para procesar tareas en segundo plano.
-<p/>
+***Un contenedor para la interfaz de usuario de la aplicación, que incluiría la carpeta "client" y cualquier recurso necesario para construir la interfaz de usuario.***
 
-<p>
-Un contenedor para el servidor Nginx, que incluiría la carpeta "nginx" y cualquier configuración necesaria para actuar como proxy inverso para la aplicación.
-<p/>
+***Un contenedor para el procesamiento en segundo plano, que incluiría la carpeta "worker" y cualquier recurso necesario para procesar tareas en segundo plano.***
+
+***Un contenedor para el servidor Nginx, que incluiría la carpeta "nginx" y cualquier configuración necesaria para actuar como proxy inverso para la aplicación.***
+
 
 <p>
 Conclusiones
